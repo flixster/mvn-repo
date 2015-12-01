@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.katharsis</groupId>
+  <artifactId>katharsis-servlet</artifactId>
+  <versioning>
+    <release>2.0.0-FLIXSTER</release>
+    <versions>
+      <version>2.0.0-FLIXSTER</version>
+    </versions>
+    <lastUpdated>20151201013503</lastUpdated>
+  </versioning>
+</metadata>
