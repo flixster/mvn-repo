@@ -43,7 +43,18 @@
 				<configuration>
 					<altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
 				</configuration>
-			</plugin> 
+			</plugin>
+			
+			<!--  Note: To do the github mvn-repo push the following must be in your ~/.m2/settings.xml
+			<settings>
+  				<servers>
+				<server>
+				    <id>github</id>
+				    <password>OAUTH2TOKEN</password>
+				</server>
+				</servers>
+			</settings>
+			--> 
 			<plugin>
 				<groupId>com.github.github</groupId>
 				<artifactId>site-maven-plugin</artifactId>
@@ -61,8 +72,7 @@
 					<repositoryOwner>flixster</repositoryOwner>    <!-- github username -->
 				</configuration>
 				<executions>
-					<!-- run site-maven-plugin's 'site' target as part of the build's normal 
-						'deploy' phase -->
+					<!-- run site-maven-plugin's 'site' target as part of the build's normal 'deploy' phase -->
 					<execution>
 						<goals>
 							<goal>site</goal>
