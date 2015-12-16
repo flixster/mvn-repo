@@ -57,17 +57,14 @@
   </properties>
 
   <repositories>
-    <repository>
-      <id>sonatype-nexus-snapshots</id>
-      <name>Sonatype Nexus Snapshots</name>
-      <url>http://oss.sonatype.org/content/repositories/snapshots</url>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
+	<repository>
+		<id>flixster-mvn-repo</id>
+		<url>https://raw.githubusercontent.com/flixster/mvn-repo/master/</url>
+		<snapshots>
+			<enabled>true</enabled>
+			<updatePolicy>always</updatePolicy>
+		</snapshots>
+	</repository>
   </repositories>
 
   <dependencies>
