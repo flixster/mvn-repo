@@ -3,10 +3,11 @@
   <groupId>io.katharsis</groupId>
   <artifactId>katharsis-core</artifactId>
   <versioning>
-    <release>1.0.1-FLIXSTER</release>
+    <release>1.0.3-FLIXSTER</release>
     <versions>
       <version>1.0.1-FLIXSTER</version>
+      <version>1.0.3-FLIXSTER</version>
     </versions>
-    <lastUpdated>20161018223417</lastUpdated>
+    <lastUpdated>20161018224855</lastUpdated>
   </versioning>
 </metadata>
